@@ -73,6 +73,7 @@
 <!--  代码渲染  -->
 <link rel="stylesheet" href="/css/prism_coy.css">
 <link rel="stylesheet" href="/css/typo.css">
+<link rel="stylesheet" href="/css/toc.css">
 <!-- 文章页 -->
 <body class="is-loading">
     <!-- Wrapper 外包 s-->
@@ -157,12 +158,21 @@
 </nav>
 
         <div id="main">
+
             <div class="post_page_title_img" style="height: 25rem;background-image: url(https://dymone-1300351472.cos.ap-beijing.myqcloud.com/word.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
                 <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>broaden your minds</h2></a>
             </div>
             <!-- Post -->
-            <div class="typo" style="padding: 3rem;">
-                <h1 id="这是一块留言板"><a href="#这是一块留言板" class="headerlink" title="这是一块留言板"></a>这是一块留言板</h1><h5 id="在这里👇写下你想说的话哟"><a href="#在这里👇写下你想说的话哟" class="headerlink" title="在这里👇写下你想说的话哟"></a>在这里👇写下你想说的话哟</h5>
+            
+            <div class="typo">
+                <div class="content">
+                    <h1 id="这是一块留言板"><a href="#这是一块留言板" class="headerlink" title="这是一块留言板"></a>这是一块留言板</h1><h5 id="在这里👇写下你想说的话哟"><a href="#在这里👇写下你想说的话哟" class="headerlink" title="在这里👇写下你想说的话哟"></a>在这里👇写下你想说的话哟</h5>
+                </div>
+                <div id="toc" class="toc-article">
+                    <p style="text-align: center;font-size: 2em;margin-bottom: 0;">Content</p>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#这是一块留言板"><span class="toc-number">1.</span> <span class="toc-text">这是一块留言板</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#在这里👇写下你想说的话哟"><span class="toc-number">1.0.0.0.1.</span> <span class="toc-text">在这里👇写下你想说的话哟</span></a></li></ol></li></ol>
+                </div>
+                
             </div>
 
             <!-- Post Comments -->
@@ -195,9 +205,14 @@
         </div>
         <!-- Copyright 版权 start -->
                 <div id="copyright">
-                <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="//music.163.com/outchain/player?type=0&id=2522888206&auto=1&height=430"></iframe>                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+            <link rel="stylesheet" href="/dist/APlayer.min.css">
+            <div id="aplayer"></div>
+            <script type="text/javascript" src="/dist/APlayer.min.js"></script>
+            <script type="text/javascript" src="/dist/music.js"></script>
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
                 <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
-            
+            </ul>
             
                 <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 			

@@ -1,0 +1,24 @@
+.typo{
+  padding: 3rem;
+  padding-right:0;
+  overflow: hidden;
+  position: relative;
+}
+.content{
+  width: 75%;
+}
+.toc-article {
+  box-shadow: 0 0 5px rgb(233, 233, 233);
+  padding: 1em;
+  position: fixed;
+  right:-19%;
+  top:10%;
+  transition: 0.5s;
+  max-height: 80%;
+  width:20%;
+}
+.toc-article:hover {
+  background-color: #fff;
+  right: 0%;
+
+}

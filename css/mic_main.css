@@ -221,6 +221,7 @@
 		}
 
 			#intro + #header .logo {
+				text-shadow: 0 1px 3px rgb(173, 173, 173);
 				-moz-transform: translateY(2rem);
 				-webkit-transform: translateY(2rem);
 				-ms-transform: translateY(2rem);
@@ -247,6 +248,7 @@
 		}
 
 			#intro.hidden + #header .logo {
+				text-shadow: 0 1px 3px rgb(173, 173, 173);
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
@@ -740,7 +742,7 @@
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
+		/* box-shadow: inset 0 0 0 2px #212931; */
 		color: #212931 !important;
 	}
 
@@ -1184,6 +1186,7 @@
 		}
 
 		#header .logo {
+			text-shadow: 0 1px 3px rgb(173, 173, 173);
 			-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
 			-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
 			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
@@ -1226,6 +1229,7 @@
 			}
 
 				#header .logo {
+					text-shadow: 0 1px 3px rgb(173, 173, 173);
 					font-size: 1.75rem;
 					border-width: 3px !important;
 				}
@@ -1966,6 +1970,7 @@
 /* Nav Panel */
 
 	#navPanelToggle {
+		text-shadow: 0 1px 3px rgb(173, 173, 173);
 		text-decoration: none;
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -1987,6 +1992,7 @@
 	}
 
 		#navPanelToggle:before {
+			text-shadow: 0 1px 3px rgb(173, 173, 173);
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
@@ -1996,6 +2002,7 @@
 		}
 
 		#navPanelToggle:before {
+			text-shadow: 0 1px 3px rgb(173, 173, 173);
 			content: '\f0c9';
 			margin-right: 0.5rem;
 		}
@@ -2013,6 +2020,7 @@
 		@media screen and (max-width: 980px) {
 
 			#navPanelToggle {
+				text-shadow: 0 1px 3px rgb(173, 173, 173);
 				display: block;
 			}
 
@@ -2021,6 +2029,7 @@
 		@media screen and (max-width: 736px) {
 
 			#navPanelToggle {
+				text-shadow: 0 1px 3px rgb(173, 173, 173);
 				font-size: 0.8rem;
 				padding: 0.7rem 1rem;
 			}
